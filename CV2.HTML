@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eeeeee;
+            color: #222;
+        }
+        .cv {
+            width: 850px;
+            min-height: 1000px;
+            margin: 30px auto;
+            background: white;
+            display: flex;
+        }
+        aside {
+            width: 32%;
+            background-color: #003b50;
+            color: white;
+            padding: 35px 30px;
+        }
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .profile h1 {
+            font-size: 22px;
+            margin-bottom: 18px;
+        }
+
+        .profile p {
+            font-size: 20px;
+        }
+
+        .line {
+            border: none;
+            border-top: 1px solid #6b8993;
+            margin: 25px 0;
+        }
+
+        /* Left Sections */
+        aside section {
+            margin-bottom: 35px;
+        }
+
+        aside h2 {
+            font-size: 23px;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        /* Contact */
+        address {
+            font-style: normal;
+        }
+
+        .contact-item {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 18px;
+            font-size: 14px;
+        }
+        .icon {
+            color: #00a8e8;
+            font-weight: bold;
+            width: 20px;
+        }
+        aside ul {
+            list-style: none;
+        }
+        aside li {
+            margin-bottom: 18px;
+            font-size: 14px;
+            padding-left: 15px;
+            position: relative;
+        }
+        aside li::before {
+            content: "▪";
+            color: #00a8e8;
+            position: absolute;
+            left: 0;
+        }
+        main {
+            width: 68%;
+            background-color: white;
+            padding: 35px;
+        }
+        main section {
+            margin-bottom: 35px;
+        }
+        main h2 {
+            color: #003b50;
+            font-size: 27px;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+        main p {
+            font-size: 14px;
+            line-height: 1.7;
+        }
+        .experience {
+            list-style: none;
+        }
+        .experience article {
+            position: relative;
+            padding-left: 38px;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+        .experience article::before {
+            content: "▪";
+            color: #1877f2;
+            font-size: 25px;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+        .skills {
+            list-style: none;
+        }
+        .skills li {
+            position: relative;
+            padding-left: 38px;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+        .skills li::before {
+            content: "▪";
+            color: #1877f2;
+            font-size: 25px;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin: 20px auto;
+        }
+        @media screen and (max-width: 700px) {
+            .cv {
+                width: 95%;
+                margin: 10px auto;
+                display: block;
+            }
+            aside,
+            main {
+                width: 100%;
+            }
+            aside {
+                padding: 30px;
+            }
+            main {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="cv">
+        <aside>
+            <header class="profile">
+                <figure>
+               <img src="photo.jpg/PH.jpg" width="140" height="180" >
+                </figure>
+                <h1>NUN LIZA</h1>
+                <p>Junior Frontend Developer</p>
+            </header>
+            <hr class="line">
+            <section>
+                <h2>CONTACT INFO</h2>
+                <address>
+                    <p class="contact-item">
+                        <span class="icon">☎</span>
+                        <span>(855) 888839142</span>
+                    </p>
+                    <p class="contact-item">
+                        <span class="icon">✉</span>
+                        <a href="mailto:nunliza0607@gmail.com">
+                            nunliza0607@gmail.com
+                        </a>
+                    </p>
+                    <p class="contact-item">
+                <span class="icon">&#128205;</span>
+                        <span>Trpeang Tonle ,Krapum chhuk commune, koh andet districk, takeo provice</span>
+                    </p>
+                </address>
+            </section>
+            <section>
+                <h2>EDUCATION</h2>
+                <ul>
+                    <li>
+                        <strong>2012 - 2018</strong><br>
+                        Prey Melu Primary School
+                    </li>
+
+                    <li>
+                        <strong>2018 - 2021</strong><br>
+                        Krapum Chhuk Secondary School
+                    </li>
+
+                    <li>
+                        <strong>2021 - 2023</strong><br>
+                        Krapum Chhuk High School
+                    </li>
+
+                    <li>
+                        <strong>2024</strong><br>
+                        Successfully passed Bacll examination
+                    </li>
+
+                    <li>
+                        <strong>2024 - Present</strong><br>
+                        Information Technology Year 3<br>
+                        Royal University of Phnom Penh
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>LANGUAGES</h2>
+                <ul>
+                    <li>Khmer - Mother Tongue</li>
+                    <li>English - Medium</li>
+                </ul>
+            </section>
+        </aside>
+        <main>
+            <section>
+                <header>
+                    <h2>ABOUT</h2>
+                </header>
+                <p>
+                    I am a motivated Information Technology student
+                    and Junior Frontend Developer with an interest in
+                    creating responsive and user-friendly websites.
+                    I enjoy learning HTML, CSS, JavaScript and modern
+                    web development.
+                </p>
+            </section>
+            <section>
+                <header>
+                    <h2>EXPERIENCES</h2>
+                </header>
+
+                <div class="experience">
+
+                    <article>
+                        <time datetime="2025-06-15">
+                          <strong>15/06/2025 - Present</strong>  
+                        </time>
+                        <br>
+                        Call Center,
+                        Today Solution, Toul Kork
+                    </article>
+
+                    <article>
+                        <strong>Customer Service</strong>
+                        <br>
+                        Handled customer inquiries professionally.
+                    </article>
+
+                    <article>
+                        <strong>Problem Solving</strong>
+                        <br>
+                        Successfully resolved customer complaints.
+                    </article>
+
+                    <article>
+                        <strong>Teamwork</strong>
+                        <br>
+                        Worked effectively as part of a team.
+                    </article>
+                </div>
+            </section>
+            <section>
+                <header>
+                    <h2>PROFESSIONAL SKILLS</h2>
+                </header>
+                <ul class="skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Accessibility</li>
+                    <li>Responsive Web Design</li>
+                    <li>Figma to Design</li>
+                    <li>Technical Writing</li>
+                    <li>Presentation</li>
+                    <li>Communication</li>
+                </ul>
+            </section>
+        </main>
+    </article>
+    <footer>
+        <p>
+            Copyright &copy; 2026 NUN LIZA. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
